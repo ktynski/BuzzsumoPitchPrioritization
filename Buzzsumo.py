@@ -36,7 +36,7 @@ def getarticleshares(domain):
 
     keyword = 'artificial intelligence'
 
-    querystring = {"q":keyword,"domains":domain,"num_results":"100","num_days":"365","api_key":"BcsUWTlosJwlMJNT30h1pUXy05tugM1h"}
+    querystring = {"q":keyword,"domains":domain,"num_results":"100","num_days":"365","api_key":"Your Buzzsumo API Key"}
 
     response = requests.request("GET", url, params=querystring)
 
